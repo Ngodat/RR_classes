@@ -11,7 +11,11 @@ output:
 # Introduction
 <i><b> How to Get Away with Murder </i></b> is an American legal thriller television series that premiered on ABC on September 25, 2014, and concluded on May 14, 2020. The series was created by Peter Nowalk, and produced by Shonda Rhimes and ABC Studios. The series aired on ABC as part of a night of programming, all under Rhimes's Shondaland production company.
 
-The series tells a story of a group of ambitious law students and their brilliant criminal defense professor become involved in a twisted murder plot that promises to change the course of their lives.
+<b>Season 1 Summary </b><br>
+Annalise Keating is a prominent criminal defense attorney and law professor at Middleton University in Philadelphia. She selects five of her first year students to intern at her firm: Wes Gibbins, Connor Walsh, Michaela Pratt, Asher Millstone, and Laurel Castillo (The Keating 5). They work with Annalise's employees, Frank Delfino and Bonnie Winterbottom, an associate lawyer. As the first season introduces occasional clients for Keating, it explores two related murders through both flashback and flashforward sequences: Lila Stangard, mistress of Annalise's husband and a student at Middleton, and then Sam Keating, Annalise's husband, who was killed by Annalise's interns.
+
+The first nine episodes alternate between the present-day timeline in medias res, depicting Wes, Connor, Michaela, and Laurel covering up Sam's murder by disposing of his body, and flashbacks detailing the course of events leading up to Sam's death, including Annalise's becoming involved in the Lila Stangard investigation, at Wes's urging, leading her to discover Sam's affair and creating suspicion that he killed Lila. The final six episodes explore Annalise's attempt to help her interns cover up Sam's murder and legally implicate Sam in Lila's death, and flashbacks to Lila's final moments before her murder.
+
 ```{r, fig.align = 'left', echo=FALSE, out.width='80%' }
 knitr::include_graphics('./TVShow.jpg')
 ```

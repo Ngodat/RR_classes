@@ -3,7 +3,22 @@ title: "(R)Markdown"
 author: "Wojciech Hardy; Michał Paliński"
 date: "3/21/2021"
 output: html_document
+params:
+  year: 2020
+  season: 3
+  # html_document:
+  #   toc: true
+  #   toc_float: true
+  #     collapsed: false
+  #   css: style.css
 ---
+
+```{r}
+params$year
+```
+# Game of thrones season `r params$season` summary number
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -74,7 +89,7 @@ Subscripts can be done like so: `H~2~O` H~2~O
 
 ---
 
-# Lists
+# Lists {.tabset}
 
 ## Ordered
 
@@ -168,11 +183,11 @@ plot(pressure)
 You can also use Python within the RMarkdown document like so:
 
 ```{python}
-import pandas
-flights = pandas.read_csv("Data/flights.csv")
-flights = flights[flights['dest'] == "ORD"]
-flights = flights[['carrier', 'dep_delay', 'arr_delay']]
-flights = flights.dropna()
+# import pandas
+# flights = pandas.read_csv("Data/flights.csv")
+# flights = flights[flights['dest'] == "ORD"]
+# flights = flights[['carrier', 'dep_delay', 'arr_delay']]
+# flights = flights.dropna()
 ```
 
 ```{r}
