@@ -27,6 +27,8 @@ require("xtable")
 require("wordcloud2")
 require("wordcloud")
 require("RColorBrewer")
+require("tm")
+require('dplyr')
 ```
 # Overview
 ## Story
@@ -64,9 +66,12 @@ The most popular episode of the season `r params$season` was `r season_data[whic
 plot(season_data$viewers, type="l", col="darkblue", lwd=5, xlab = "Episode number", ylab = "1st day TV viewers in the US (millions)")
 ```
 
-## WordCloud
-Episodes' description with <span style = "color: red">`r params$keyword`</span>:
-
+## Keywords
+Episodes with the word <span class = 'red'>`r params$keyword` </span> in the description were:
+```{r, echo = FALSE}
+knitr::kable(season_data[grepl(params$keyword, sapply(season_data$description, tolower)),c('no_season','title','viewers')],
+             col.names = c('No. in season','Title','Number of viewers'), )  
+```
 
 
 

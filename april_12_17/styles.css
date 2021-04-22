@@ -17,7 +17,10 @@
 	color: black;
 	position:absolute;
    	bottom:13px;
+}
 
+.red{
+	color: red;
 } 
 
 #quotes1 {
