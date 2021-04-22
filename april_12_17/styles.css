@@ -1,0 +1,26 @@
+.box{ 
+	width:90%; 
+	height:auto; 
+	color: black;
+	background-color: white;
+	border-radius: 12px;
+	border-color: gray;
+	border-style: dashed;
+	border-width: 3px;
+} 
+ 
+.brief{ 
+	width:80%; 
+	height:auto;
+	font-size: 20px; 
+	overflow: scroll;
+	color: black;
+	position:absolute;
+   	bottom:13px;
+
+} 
+
+#quotes1 {
+   position:absolute;
+   bottom:80px;
+}
